@@ -1,0 +1,295 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+* {
+	margin:0px;
+	padding:0px;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+ul {
+    position: relative;
+}
+
+::-webkit-scrollbar
+{
+  width: 6px;  /* for vertical scrollbars */
+  height: 6px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.control_panal {
+
+	background-color: rgba(0,0,0,0.9);
+    position: absolute;
+    left: 0px;
+    width: 400px;
+    top: 0px;
+    bottom: 0px;
+    padding: 10px;
+}
+
+.scene_control {
+    position: absolute;
+    right: 100px;
+    bottom: 50px;
+}
+
+.scene_control_item {
+
+    color: white;
+    display: inline;
+    margin: 5px;
+}
+
+.sm_p_title {
+    margin: 0px;
+    margin-left: 10px;
+    display: inline-block;
+    color: rgb(200,200,200);
+    width: 100%;
+}
+
+.loading {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.loading * {
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+.control_panal_title {
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.sm_perspective {
+	position: absolute;
+	width: calc(100% - 20px);
+	height: 200px;
+	bottom: 10px;
+
+}
+
+#selected_item_id {
+    color: rgb(150,150,150);
+    font-size: 9px;
+    margin: 0px;
+}
+
+.scene_control_item:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.data_nav {
+    height: calc(100% - 310px);
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.dataitem {
+    color: rgb(200,200,200);
+    cursor: pointer;
+    width: 91%;
+    float: right;
+    border-left: 1px solid rgba(255,255,255,0.2);
+    margin-top: 10px;
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-top: 0px;
+    position: relative;
+}
+
+.dataitem p:hover {
+    opacity: 0.6;
+}
+
+.dataitem ul:hover {
+    opacity: 0.6;
+}
+
+.level0 {
+    margin-bottom: 20px;
+}
+
+.tohide {
+    display: none;
+    opacity: 0;
+}
+
+.selected_item {
+    background-color: rgba(255,255,255,0.2);
+}
+
+#subcanvas {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#smcanvas {
+    background-color: rgba(255,255,255,0.7);
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 0px;
+}
+
+#selected_spects {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 140px;
+    height: 200px;
+    color: white;
+    background-color: rgba(255,255,255,0.6);
+    overflow-y: auto;
+}
+
+.itemfield {
+    width: 48.5%;
+    float: left;
+    margin: 0px;
+    margin-left: 0px;
+    text-overflow: clip;
+    font-size: 10px;
+    text-align: center;
+    border: 1px solid rgba(255,255,255,0.1);
+    overflow: hidden;
+    height: 18px;
+}
+
+.itemfield:hover {
+    background-color: rgba(255,255,255,0.1);
+}
+
+.hoverpop {
+    text-decoration:none;
+    color:#ffffff;
+}
+
+.loading_indication {
+    width: 200px;
+    height: 30px;
+    background-color: white;
+}
+
+.spects_btn {
+    width: 50%;
+    float: left;
+    text-align: center;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.selected {
+    background-color: rgb(50,50,50) !important;
+}
+
+#selector {
+    width: 100%;
+    height: 20px;
+    color: white;
+    cursor: pointer;
+    padding: 3px;
+}
+
+#selector:hover {
+    opacity:0.6;
+}
+
+#selector i {
+    color: rgba(255,255,255,0.6);
+
+}
+
+#selector_lst {
+    position: absolute;
+    width: 90%;
+    max-height: 200px;    
+    color: rgba(255,255,255,0.8);
+    overflow: auto;
+    z-index: 1;
+    background-color: black;
+    
+}
+
+#selector_lst ul {
+    border-top: 1px solid rgba(255,255,255,0.1);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    margin: 0px;
+    cursor: pointer;
+}
+
+#selector_lst ul:hover {
+    background-color: rgba(255,255,255,0.1);
+    opacity: 0.6;
+}
+
+.dataitem i {
+    max-width: 60%;
+    position: absolute;
+    right: 0px;
+    color: rgba(255,255,255,0.6);
+    font-size: 12px;
+}
+
+.dataitem p {
+    display: inline;
+    color: rgba(255,255,255,0.4);
+}
+
+
+#selected {
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    padding-bottom: 10px;
+    padding-top: 0px;
+
+}
+
+#selected ul{
+    border: 1px solid rgba(255,255,255,0.5);
+    display:inline-block;
+    margin: 5px;
+    cursor: pointer;
+    padding: 3px;
+    color: rgba(255,255,255,0.8);
+}
+
+#selected ul:hover {
+    opacity: 0.6;
+}
+
+.downarrow {
+    width:6px;
+    height:6px;
+    margin-right: 8px;
+}
