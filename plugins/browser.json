@@ -1,0 +1,76 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "pwz.herokuapp.com"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "pwz.herokuapp.com"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "pwz.herokuapp.com"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "pwz.herokuapp.com"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "pwz.herokuapp.com"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "pwz.herokuapp.com"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "pwz.herokuapp.com"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "pwz.herokuapp.com"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "pwz.herokuapp.com"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "pwz.herokuapp.com"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "pwz.herokuapp.com"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "pwz.herokuapp.com"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "pwz.herokuapp.com"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "pwz.herokuapp.com"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "pwz.herokuapp.com"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "pwz.herokuapp.com"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "pwz.herokuapp.com"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "pwz.herokuapp.com"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "pwz.herokuapp.com"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "pwz.herokuapp.com"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "pwz.herokuapp.com"
+        }
+    }
+}
